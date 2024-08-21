@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Partuno{
+  background-color: palevioletred;
+  text-transform: uppercase;
+  text-align: center;
+  word-spacing: 20px;
+  font-family: Baskervville;
+  font-size: 20px;
+}
+
+#title{
+  color: antiquewhite;
+  font-size: 30px;
+  width: 100vw;
+  text-transform: uppercase;
+}
+
+
+.Partuno > #title > span{
+  margin: 9px;
+  
+}
+
+#survey-form{
+  margin: 40px;
+  font-size: 30px;
+}
+
+input{
+  margin: 20px;
+
+}
+
+label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+legend{
+  text-align: center;
+}
+
+footer{
+  background-color: blueviolet;
+padding: 30px;
+}
+
+input[type="text"], input[type="number"],  input[type="email"]{
+  width: 20rem;
+  padding: 20px;
+}
+
+footer{
+  color: whitesmoke;
+  font-family: Anton;
+  word-spacing: 40px;
+}
+
+h3{
+
+}
+
+input[type="radio"]{
+  margin: 20px;
+  padding: 20px;
+}
+
+input[type="submit"]{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: violet;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#description{
+  position: relative;
+  font-size: 50px;
+  background-color: pink;
+  color: white;
+  -webkit-text-stroke: 0.5px solid white;
+  padding: 50%;
+}
+
+
+
+footer{
+  font-size: 30px;
+}
+
+.set {
+  
+  text-align: center;
+  
+}
+
+textarea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+}

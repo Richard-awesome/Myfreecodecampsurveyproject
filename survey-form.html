@@ -1,0 +1,90 @@
+<!-- Very cute, very neat and very demure structure  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="form-decorator.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- This part has the title of the project -->
+  <header class="Partuno">
+  <h1 id="title"><span>K</span><span>U</span><span>L</span><span>T</span><span>E</span><span>K</h1>
+</header>
+
+<!-- This part descripes the page -->
+<section class="Partduo">
+  <p id="description">Richard awesome is ready to as flexible as the job demans</p>
+  </section>
+
+  <!-- This part has the form the users fills -->
+  <main class="assignment">
+  <form id="survey-form">
+    <fieldset>
+      <legend>Personal Info</legend>
+    <!-- The user writes their name -->
+    <label id="name-label" for="">Full name
+    <input id="name" type="text" required  placeholder="Enter Your name">
+  </label>
+  <br>
+
+    <!-- The user writes their mail here -->
+    <label id="email-label">Email
+    <input id="email" type="email" required placeholder="example@gmail.com">
+  </label>
+  <br>
+
+    <!-- The user writes their phone number -->
+    <label id="number-label">Phone number
+    <input id="number" type="number" max="12" min="10" placeholder="e.g 07034146900">
+  </label>
+  <br>
+</fieldset>
+
+<fieldset  class="set">
+  <legend>Preferences</legend>
+    <!-- The user picks an option from the dropdown -->
+    <select name="Prefer" id="dropdown">
+      <option value="Favorite Pet"></option>
+      <option value="Cats"></option>
+      <option value="Ferrets"></option>
+      <option value="Dogs"></option>
+    </select>
+    <br>
+
+    <!-- The user can only choose one option -->
+    <input name="radio1" value="first radio" type="radio">Red
+    <br>
+    <input name="radio1" value="radio2" type="radio" >Pink
+<br>
+
+    <!-- The user can check multiple varieties -->
+    <input type="checkbox" value="checka">Pizza
+    <input type="checkbox" value="checke">burgers
+    <input type="checkbox" value="checki">Shawarma
+    <input type="checkbox" value="checko">Fries
+    <input type="checkbox" value="checku">
+    <br>
+  </fieldset>
+
+  <fieldset>
+    <legend>About</legend>
+    <!-- The user writes down a complaint -->
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+<br>
+  </fieldset>
+    <!-- The user finalizes the submission -->
+    <input type="submit" id="submit">
+  </form>
+</main>
+
+<!-- I created this cuz I'm looking for a job! -->
+<footer class="random-section">
+  <marquee><h3 class="side-scroll">Please hire me!!! 07034146900</h3></marquee>
+</footer>
+</body>
+</html>
